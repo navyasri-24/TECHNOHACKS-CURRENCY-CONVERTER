@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('hehe.jpg'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .converter-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input,
+  .input-group select {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .input-group button {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .result {
+    font-size: 20px;
+    color: black; /* Set text color to white for better visibility on the background image */
+  }
+  
